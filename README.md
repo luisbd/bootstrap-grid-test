@@ -1,2 +1,2 @@
-# bootstrap-grid-test
-A Bootstrap grid test 
+# Layout tests
+A series of basic layout tests comparing different solutions.
