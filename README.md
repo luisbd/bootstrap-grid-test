@@ -1,2 +1,2 @@
 # Layout tests
-A series of basic layout tests comparing different solutions.
+A series of solutions to implement a basic grid-based layout.
