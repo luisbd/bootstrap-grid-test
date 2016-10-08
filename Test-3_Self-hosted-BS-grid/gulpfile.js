@@ -8,11 +8,7 @@ var cssMinDir = './public/styles/min'
 gulp.task('sass', function() {
     return gulp.src(sassSrc)
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./public/styles/'));
-});
-
-gulp.task('sass:watch', function() {
-    gulp.watch(sassSrc, ['sass']);
+        .pipe(gulp.dest(cssDir));
 });
 
 gulp.task('sass-prod', function() {
